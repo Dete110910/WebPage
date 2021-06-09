@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+</head>
+<body>
+    <header>
+        <h1>Cómo usar los "section", "artciles" y "asides"</h1> 
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué es cada uno?</h2>
+        <p>Section: Se usa cuando como contenedor genérico para agrupar contenido que está relacionado. Se usa cuando todo lo que se mete aquí es parte de otro bloque total.</p>
+        <p>Article: Un artículo se usa cuando el contenido que va a entrar allí es independiente. Algo que se puede leer por sí solo y se va a entender de igual manera</p>
+        <p>Aside: Traduce "aparte" y su significado va más asociado a algo que está relacionado con lo que se está hablando pero que no hace parte fundamental del tema. </p>
+
+            <article>
+                <header>
+                    <h3>Cuándo usar "section"</h3>
+                </header>
+                <p>
+                    Para ejemplificar esto, se puede pensar en una página de noticias como https://www.bbc.com/news. Allí se tienen varias secciones: "más leído", "más visto", "mayor tiempo leído" etc. 
+                    Dentro de cada una de esas secciones se encuentran noticias o artículos que cumplen con alguna de esta característica: han sido las más leídas, o las ,ás vistas o en la que han pasado mayor tiempo los usuarios. 
+                    Este es un perfecto uso de una sección en HTML, se separan un conjunto de elementos que tienen una característica en común.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Cuándo usar "article"</h3>
+                </header>
+                <p>
+                    Como se definió anteriormente, un "article" es usado cuando lo que se va a decir allí es de alguna forma "independiente", cuando se puede leer solo.
+                    Siguiendo el ejemplo, cada una de las noticias que se encuentran en las secciones de la página https://www.bbc.com/news son eso mismo, artículos que por sí solos
+                    pueden ser leídos y que se van a entender porque no están ligados a alguna noticia padre o algo por el estilo.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Cuándo usar "aside"</h3>
+                </header>
+                <p>
+                    El "aside" es muy fácil de entender: Es aquél contenido que se relaciona con la página pero que nos pueden llevar al exterior de la misma.
+                    En una página en la que se hable sobre animales exóticos podemos encontrar en algún costado enlaces que nos lleven a conocer sobre plantas exóticas, por ejemplo.
+                    Está relacionado porque ambos nos hablan sobre cosas exóticas pero no están fuertemente conectadas. Por la definición de esta etiqueta podemos no incluirla dentro de la 
+                    etiqueta "main", aunque es opcional y en ambos casos el validador (mostrado en la página de Herramientas) lo tomará como correcto. Queda al criterio de cada uno.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
